@@ -1,19 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-//import App from './components/App/App';
+//import App from "./components/App/App";
 import Sumar from "./components/SumarNumeros/SumarNumeros";
 //import Saludo from "./components/Saludo/Saludo";
 //import Metodos from "./components/Metodos/Metodos";
+import Padre from "./components/Padre/Padre";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <div>
     {/* <Saludo nombre="Adrián" edad="20" /> */}
     {/* <Metodos /> */}
-    <Sumar Numero1="5" Numero2="88" />
+    {/* <Sumar Numero1="5" Numero2="88" />
     <Sumar Numero1="999" Numero2="777" />
-    <Sumar Numero1="789" Numero2="7821" />
+    <Sumar Numero1="789" Numero2="7821" /> */}
+    <Padre />
   </div>,
 
   document.getElementById("root")
