@@ -20,7 +20,7 @@ function MatematicasDibujo(props) {
       <button onClick={() => Multiplicar(Num1, Num2)}>
         Multiplicar los numeros
       </button>
-      <span style={{ margin: "1em", color: "blue" }}></span>
+      <span style={{ margin: "1em", color: "blue" }}>{Multiplicar}</span>
     </div>
   );
 }
