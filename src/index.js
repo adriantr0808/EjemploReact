@@ -6,6 +6,8 @@ import Sumar from "./components/SumarNumeros/SumarNumeros";
 //import Saludo from "./components/Saludo/Saludo";
 //import Metodos from "./components/Metodos/Metodos";
 import Padre from "./components/Padre/Padre";
+//import Contador from "./components/Contador/Contador";
+import PadreDibujo from "./components/PadreDibujo/PadreDibujo";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -15,7 +17,12 @@ ReactDOM.render(
     {/* <Sumar Numero1="5" Numero2="88" />
     <Sumar Numero1="999" Numero2="777" />
     <Sumar Numero1="789" Numero2="7821" /> */}
-    <Padre />
+    {/* <Padre /> */}
+    {/* <Contador Inicio="5" />
+    <Contador Inicio="19" />
+    <Contador Inicio="22" />
+    <Contador Inicio="44" /> */}
+    <PadreDibujo />
   </div>,
 
   document.getElementById("root")
