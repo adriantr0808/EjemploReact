@@ -1,19 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 //import App from './components/App/App';
-import Saludo from './components/Saludo/Saludo';
-import Metodos from './components/Metodos/Metodos';
-import reportWebVitals from './reportWebVitals';
+import Sumar from "./components/SumarNumeros/SumarNumeros";
+//import Saludo from "./components/Saludo/Saludo";
+//import Metodos from "./components/Metodos/Metodos";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
+  <div>
+    {/* <Saludo nombre="Adrián" edad="20" /> */}
+    {/* <Metodos /> */}
+    <Sumar Numero1="5" Numero2="88" />
+    <Sumar Numero1="999" Numero2="777" />
+    <Sumar Numero1="789" Numero2="7821" />
+  </div>,
 
-    <div>
-    <Saludo nombre="Adrián" edad="20"/>
-    <Metodos/> 
-    </div>,
- 
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
