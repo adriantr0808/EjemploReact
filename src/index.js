@@ -11,7 +11,7 @@ import PadreDibujo from "./components/PadreDibujo/PadreDibujo";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <div>
+  <div className="App">
     {/* <Saludo nombre="Adrián" edad="20" /> */}
     {/* <Metodos /> */}
     {/* <Sumar Numero1="5" Numero2="88" />
