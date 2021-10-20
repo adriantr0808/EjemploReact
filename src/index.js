@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-//import App from "./components/App/App";
+import App from "./components/App/App";
 import Sumar from "./components/SumarNumeros/SumarNumeros";
 //import Saludo from "./components/Saludo/Saludo";
 //import Metodos from "./components/Metodos/Metodos";
@@ -9,6 +9,7 @@ import Padre from "./components/Padre/Padre";
 //import Contador from "./components/Contador/Contador";
 import PadreDibujo from "./components/PadreDibujo/PadreDibujo";
 import reportWebVitals from "./reportWebVitals";
+import Car from "./components/Car/Car";
 
 ReactDOM.render(
   <div className="App">
@@ -22,7 +23,16 @@ ReactDOM.render(
     <Contador Inicio="19" />
     <Contador Inicio="22" />
     <Contador Inicio="44" /> */}
-    <PadreDibujo />
+    {/* <PadreDibujo /> */}
+
+    <Car
+      Marca="Pontiac"
+      Modelo="Firebird"
+      Aceleracion="20"
+      VelocidadMax="210"
+    />
+    <Car Marca="Seat" Modelo="600" Aceleracion="2" VelocidadMax="90" />
+    <Car Marca="Ferrari" Modelo="F40" Aceleracion="30" VelocidadMax="240" />
   </div>,
 
   document.getElementById("root")
