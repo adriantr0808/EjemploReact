@@ -5,6 +5,7 @@ function Car(props) {
   //pero tambien podemos crear un objeto con sus propiedades
   //const [Marca, Modelo, Acelearcion, VelocidadMaxima] = props;
 
+  //Objeto coche con estos atributos
   var coche = {
     marca: props.Marca,
     modelo: props.Modelo,
@@ -38,6 +39,7 @@ function Car(props) {
     }
   };
 
+  //Metodo para acelerar el coche
   const acelerarCoche = () => {
     if (estado == false) {
       alert("El coche esta parado");
